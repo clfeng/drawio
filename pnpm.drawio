@@ -1,9 +1,62 @@
-<mxfile host="app.diagrams.net" modified="2024-08-14T02:12:47.379Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.6.5" etag="iYreWGqOP1_V6oSCUDo_" type="github">
+<mxfile host="app.diagrams.net" modified="2024-08-14T02:19:24.082Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" etag="hK0Vol61KJAriAqxpunn" version="24.6.5" type="github">
   <diagram name="第 1 页" id="TDQRIKvZEVYMXzaRd6xJ">
-    <mxGraphModel>
+    <mxGraphModel dx="1180" dy="568" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Zcsv-JATRCU36X9kKeBU-12" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="200" y="290" width="450" height="245" as="geometry" />
+        </mxCell>
+        <mxCell id="Zcsv-JATRCU36X9kKeBU-2" value="project" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="Zcsv-JATRCU36X9kKeBU-12">
+          <mxGeometry x="-60" y="-25" width="510" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="Zcsv-JATRCU36X9kKeBU-6" value="node_modules" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="Zcsv-JATRCU36X9kKeBU-12">
+          <mxGeometry width="230" height="185" as="geometry" />
+        </mxCell>
+        <mxCell id="Zcsv-JATRCU36X9kKeBU-3" value=".pnpm" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Zcsv-JATRCU36X9kKeBU-12">
+          <mxGeometry x="10" y="25" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zcsv-JATRCU36X9kKeBU-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Zcsv-JATRCU36X9kKeBU-12" source="Zcsv-JATRCU36X9kKeBU-7" target="Zcsv-JATRCU36X9kKeBU-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="150" y="115" />
+              <mxPoint x="150" y="55" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zcsv-JATRCU36X9kKeBU-7" value="pacakageA" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Zcsv-JATRCU36X9kKeBU-12">
+          <mxGeometry x="10" y="95" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Zcsv-JATRCU36X9kKeBU-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Zcsv-JATRCU36X9kKeBU-12" source="Zcsv-JATRCU36X9kKeBU-8" target="Zcsv-JATRCU36X9kKeBU-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="150" y="155" />
+              <mxPoint x="150" y="55" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zcsv-JATRCU36X9kKeBU-11" value="软链接" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Zcsv-JATRCU36X9kKeBU-10">
+          <mxGeometry x="0.2857" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zcsv-JATRCU36X9kKeBU-8" value="pacakageB" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Zcsv-JATRCU36X9kKeBU-12">
+          <mxGeometry x="10" y="135" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Zcsv-JATRCU36X9kKeBU-1" value="globalStore" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="120" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zcsv-JATRCU36X9kKeBU-4" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="226.5" y="310" as="sourcePoint" />
+            <mxPoint x="227" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zcsv-JATRCU36X9kKeBU-5" value="硬链接" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Zcsv-JATRCU36X9kKeBU-4">
+          <mxGeometry x="0.1" y="6" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
